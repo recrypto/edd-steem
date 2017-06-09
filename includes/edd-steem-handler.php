@@ -135,13 +135,13 @@ class EDD_Steem_Handler {
 			edd_insert_payment_note(
 				$payment_id,
 				sprintf(
-					__('EDD Steem payment completed with transaction #%d and transfer #%d with the amount of %s %s by %s on %s.', 'edd-steem'), 
+					__('EDD Steem payment completed with transaction (ID: %s) and transfer (ID: %s) with the amount of %s %s by %s on %s.', 'edd-steem'), 
 					$transfer['tx_id'], 
 					$transfer['ID'], 
 					$transfer['amount'], 
 					$transfer['amount_symbol'], 
 					$transfer['from'], 
-					$transfer['timestamp']
+					date('Y-m-d H:i:s', $transfer['timestamp'])
 				)
 			);
 
