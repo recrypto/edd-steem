@@ -1,6 +1,3 @@
-# NOTICE
-PLEASE DO NOT USE ON PRODUCTION. WE'RE CURRENTLY DOING MORE DEVELOPMENT TESTS.
-
 # EDD Steem (Easy Digital Downloads Steem)
 Accept Steem payments directly to your Easy Digital Downloads shop!
 
@@ -26,6 +23,9 @@ You will <strong>NOT</strong> require any Steem keys for this plugin to work. Yo
 
 Payment Gateway Settings (Backend)
 ![Screenshot #3](https://imgoat.com/uploads/7693cfc748/22571.png)
+
+## Links
+- [WordPress Plugin Repository](https://wordpress.org/extend/plugins/edd-steem)
 
 ## Thanks
 - [@arcange](https://steemit.com/@arcange) for [SteemSQL](https://steemsql.com)
