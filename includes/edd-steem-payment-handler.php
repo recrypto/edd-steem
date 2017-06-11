@@ -89,7 +89,7 @@ class EDD_Steem_Payment_Handler {
 					</tr>
 					<tr>
 						<th><?php _e('Paid on', 'edd-steem'); ?></th>
-						<td><?php printf('%s on %s', date('F j, Y', strtotime($transfer['timestamp'])), date('g:i A', strtotime($transfer['timestamp']))); ?></td>
+						<td><?php printf('%s on %s', date('F j, Y', $transfer['timestamp']), date('g:i A', $transfer['timestamp'])); ?></td>
 					</tr>
 				</tbody>
 			</table>
